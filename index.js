@@ -3,7 +3,6 @@ const { createServer } = require('http');
 const express = require('express');
 const { ApolloServerPluginDrainHttpServer } = require('apollo-server-core');
 const { makeExecutableSchema } = require('@graphql-tools/schema');
-//const { WebSocketServer } = require('ws');
 const { SubscriptionServer } = require("subscriptions-transport-ws");
 const { useServer } = require('graphql-ws/lib/use/ws');
 const mongoose = require('mongoose');
