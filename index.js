@@ -12,8 +12,6 @@ const typeDefs = require('./graphql/typeDefs');
 const resolvers = require('./graphql/resolvers');
 const { MONGODB } = require('./config.js');
 
-//test
-
 const PORT = process.env.PORT || 5000;
 
 (async function(){
