@@ -52,9 +52,9 @@ const PORT = process.env.PORT || 5000;
         console.error(err);
     });
 
-    httpServer.listen(PORT, (res) => {
-        console.log(`Server running at ${res.url}`);
-        //console.log(`Http server is now running on http://localhost:${PORT}${server.graphqlPath}`);
+    httpServer.listen(PORT, () => {
+        //console.log(`Server running at ${res.url}`);
+        console.log(`Http server is now running on http://localhost:${PORT}${server.graphqlPath}`);
     });
 
 })();
